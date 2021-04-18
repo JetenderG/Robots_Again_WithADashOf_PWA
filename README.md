@@ -1,8 +1,4 @@
 # robofriends
-React + Redux
 
-To run the project:
-
-1. Clone this repo
-2. Run `npm install`
-3. Run `npm start`
+Taking a Class for web devlopment to futhur improve my skills
+Same as Robots repsoitory however this is made for a progress web app

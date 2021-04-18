@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import { connect } from 'react-redux';
 import { setSearchField, requestRobots } from '../actions';
-
+import loadable from '@loadable/component'
 import CardList from '../components/CardList';
 import SearchBox from '../components/SearchBox';
 import Scroll from '../components/Scroll';
@@ -37,16 +37,22 @@ class App extends Component {
     const filteredRobots = robots.filter(robot => {
       return robot.name.toLowerCase().includes(searchField.toLowerCase());
     })
+    const Card_Loadable = loadable(props => import('../components/CardList'),{
+      cacheKey: props => props.robot,
+    })
     return (
       <div className='tc'>
         <h1 className='f1'>RoboFriends</h1>
         <SearchBox searchChange={onSearchChange}/>
         <Scroll>
-          { isPending ? <h1>Loading</h1> :
-            <ErrorBoundry>
-              <CardList robots={filteredRobots} />
+          
+          <Suspense fallback={ <h1>Loading :</h1>}>
+                <ErrorBoundry>
+              <Card_Loadable robots={filteredRobots} />
             </ErrorBoundry>
-          }
+         
+          </Suspense>
+            
         </Scroll>
       </div>
     );

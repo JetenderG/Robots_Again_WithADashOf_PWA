@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './Card';
+import loadable from '@loadable/component'
 
 const CardList = ({ robots }) => {
   return (

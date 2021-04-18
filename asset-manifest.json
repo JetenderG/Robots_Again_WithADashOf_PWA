@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Robots_Again_WithADashOf_PWA/static/css/main.2e8360ec.chunk.css",
-    "main.js": "/Robots_Again_WithADashOf_PWA/static/js/main.01ff3ab1.chunk.js",
-    "main.js.map": "/Robots_Again_WithADashOf_PWA/static/js/main.01ff3ab1.chunk.js.map",
+    "main.css": "/Robots_Again_WithADashOf_PWA/static/css/main.a39bb063.chunk.css",
+    "main.js": "/Robots_Again_WithADashOf_PWA/static/js/main.a437baef.chunk.js",
+    "main.js.map": "/Robots_Again_WithADashOf_PWA/static/js/main.a437baef.chunk.js.map",
     "runtime-main.js": "/Robots_Again_WithADashOf_PWA/static/js/runtime-main.f8ded446.js",
     "runtime-main.js.map": "/Robots_Again_WithADashOf_PWA/static/js/runtime-main.f8ded446.js.map",
     "static/css/2.fe359a49.chunk.css": "/Robots_Again_WithADashOf_PWA/static/css/2.fe359a49.chunk.css",
@@ -14,7 +14,7 @@
     "service-worker.js": "/Robots_Again_WithADashOf_PWA/service-worker.js",
     "service-worker.js.map": "/Robots_Again_WithADashOf_PWA/service-worker.js.map",
     "static/css/2.fe359a49.chunk.css.map": "/Robots_Again_WithADashOf_PWA/static/css/2.fe359a49.chunk.css.map",
-    "static/css/main.2e8360ec.chunk.css.map": "/Robots_Again_WithADashOf_PWA/static/css/main.2e8360ec.chunk.css.map",
+    "static/css/main.a39bb063.chunk.css.map": "/Robots_Again_WithADashOf_PWA/static/css/main.a39bb063.chunk.css.map",
     "static/js/2.1084f161.chunk.js.LICENSE.txt": "/Robots_Again_WithADashOf_PWA/static/js/2.1084f161.chunk.js.LICENSE.txt",
     "static/media/App.css": "/Robots_Again_WithADashOf_PWA/static/media/SEGA.47b4bfa9.woff"
   },
@@ -22,7 +22,7 @@
     "static/js/runtime-main.f8ded446.js",
     "static/css/2.fe359a49.chunk.css",
     "static/js/2.1084f161.chunk.js",
-    "static/css/main.2e8360ec.chunk.css",
-    "static/js/main.01ff3ab1.chunk.js"
+    "static/css/main.a39bb063.chunk.css",
+    "static/js/main.a437baef.chunk.js"
   ]
 }
